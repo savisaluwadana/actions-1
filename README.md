@@ -1,2 +1,3 @@
-# actions-1
-this is a repo used to get experience it github actions 
+#exlporing actions
+
+we will use the following code to explore the actions of the model:
