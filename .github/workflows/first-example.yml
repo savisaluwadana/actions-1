@@ -9,15 +9,21 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v4
-              
-            - name: welcome message
-              run: echo "Welcome to my first workflow!"
 
-            - name: List the Files
-              run: ls 
+            - name: list and read files 
+              run: |
+                echo "Welcome to my first workflow!"
+                ls -ltra
+                cat README.md
 
-            - name: Read file
-              run: cat README.md
+            - name: Generate ascii art
+              run: cowsay -f dragon "Hello World!" >> dragon.txt
+
+            # - name: List the Files
+            #   run: ls 
+
+            # - name: Read file
+            #   run: cat README.md
 
 
             
