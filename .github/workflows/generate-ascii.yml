@@ -11,11 +11,11 @@ jobs:
 
             - name: install cowsay program
               run: sudo apt-get install cowsay -y
-              
+
             - name: list the repo files
               run: ls -ltra
 
             - name: Executing shell script
-              run: ./generate-ascii.sh
+              run: ./ascii-script.sh
              
             
