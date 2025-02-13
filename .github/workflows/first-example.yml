@@ -17,7 +17,7 @@ jobs:
                 cat README.md
 
             - name: Generate ascii art
-              run: cowsay -f dragon "Hello World!" > dragon.txt
+              run: cowsay -f dragon "Hello World!" >> dragon.txt
 
             # - name: List the Files
             #   run: ls 
