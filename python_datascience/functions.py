@@ -24,3 +24,5 @@ def sum_all(*numbers):
 
 print(sum_all(1, 2, 3)) # Prints 6
 
+def formal_greeting(name, title="Mr.", prompt="Hello"):
+    return prompt + ", " + title + " " + name
