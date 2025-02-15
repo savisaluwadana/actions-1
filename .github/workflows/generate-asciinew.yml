@@ -20,7 +20,7 @@ jobs:
         run: sleep 10
 
       - name: test file exists
-        run: grep -i "dragon" dragon.txt
+        run: grep -i "DRAGON" dragon.txt
 
 
   deploy_job_3:
